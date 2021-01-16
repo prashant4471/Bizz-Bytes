@@ -1,0 +1,156 @@
+* {
+    padding: 0; margin: 0;
+    /*background-color: rgb(52, 58, 64);*/
+    
+}
+.nav-item{
+    padding-left: 150px;
+}
+
+.nav-link,.c{
+    color: yellow;
+    font-size: 20px;
+}
+
+.navbar{
+    background: rgb(5, 25, 45);
+}
+.main{
+    background: url(./zLI7Hbe.jpg);
+    background-attachment: fixed;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+.top_container{
+    margin-top: 65px;
+    width: 100%;
+    padding: 15px;
+}
+
+.bottom_container {
+    border: none;
+    width: 100%;
+    padding: 15px;
+    /*background-color: rgb(52,58,64);*/
+}
+
+.left_top {
+    width: 65%;
+    float:left;
+    padding-left: 50px;
+}
+
+.right_top {
+    width: 25%;
+    float: right;
+    margin-right: 30px;    
+    height: 380px;
+}
+
+.top_container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.middle {
+    color: rgb(230, 230, 230);
+    margin-top: 20px;
+    width: 100%;
+}
+.iclass1 {
+    text-align: center;
+    width: 100%;
+}
+.iclass {
+    text-align: center;
+    float: left;
+    width: 40%;
+    margin: 17px;
+}
+.iclass2 {
+    float: right;
+    text-align: center;
+    width: 40%;
+    margin: 17px;
+    margin-left: 34px;
+}
+
+.left{
+    float:left;
+    text-align: center;
+    width: 50%;
+}
+
+.right {
+    float:left;
+    text-align: center;
+    width: 50%;
+}
+
+.middle:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.left_bottom {
+    float:left;
+    text-align: center;
+    width: 50%;
+}
+
+.right_bottom {
+    float:left;
+    text-align: center;
+    width: 46%;
+}
+
+.bottom_container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.comment_area {
+    padding: 10px;
+    color: rgb(230, 230, 230);
+    height: 90%;
+    width: 100%;
+    border: 2px solid black; 
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(46, 43, 43);
+    border-bottom: none;
+}
+
+.comment {
+    width: 95%;
+    color: white;
+    float:left;
+    height: 30px;
+    padding: 2px;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-top: none;
+    background-color: #474242;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.arrow {
+    margin-top: 7px;
+    border: solid rgb(230, 230, 230);
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
